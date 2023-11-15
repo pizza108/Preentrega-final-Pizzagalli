@@ -86,7 +86,15 @@ section {
     display: inline-block;
 }
 
-img {
+.imgIndex {
+    width: 100%;
+}
+
+.imgProductos {
+    width: 70px;
+}
+
+.imgHistoria {
     width: 100%;
 }
 
@@ -139,7 +147,7 @@ textarea {
 /*footer*/
 
 footer { 
-    margin: 20px;
+    margin: 20px 0;
     padding: 20px;  
     border-top: 1px solid black;
     text-align: center;
