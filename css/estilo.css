@@ -74,13 +74,14 @@ h2 {text-align: center;
         color: black;
     }
 
+
 section {
     text-align: center;
    }
 
    
 .krachitos  {
-    margin: 0 50px;
+    margin: 0 1rem;
 }
 .alineado {
     display: inline-block;
@@ -152,4 +153,24 @@ footer {
     border-top: 1px solid black;
     text-align: center;
     background-color: rgb(156, 132, 36);
+    position: sticky;
+    bottom:0
+    
+}
+footer ul {
+    margin-top: 1rem;
+}
+
+footer ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+footer ul li a img {
+    height: 2.5rem;   
+}
+
+iframe {
+    width: 100%;
 }
