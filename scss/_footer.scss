@@ -1,0 +1,34 @@
+/*footer*/
+
+footer {
+    margin: 1tem;
+    padding: 1rem;
+    border-top: 1px solid black;
+    text-align: center;
+    background-image: linear-gradient(to right, $color-mostaza, $color-amarillo);
+    position: sticky;
+    bottom: 0;
+
+    ul {
+        margin-top: 1rem;
+
+        li {
+            @include listas (0,1rem);
+
+
+
+            a img {
+                height: 2.5rem;
+                transition: $time;
+
+                &:hover {
+                    height: 3rem;
+                }
+            }
+        }
+    }
+}
+
+iframe {
+    width: 100%;
+}

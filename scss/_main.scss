@@ -1,0 +1,49 @@
+/*main*/
+
+main {
+    margin: 20px;
+    padding: 20px;
+}
+
+h1,
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 20px 0px;
+    padding: 1rem;
+    background-color: $color-amarillo;
+    border-radius: 30px;
+}
+
+p {
+    color: black;
+}
+
+section {
+    text-align: center;
+}
+
+.krachitos {
+    margin: 0 1rem;
+}
+
+.alineado {
+    display: inline-block;
+}
+
+.imgIndex {
+    width: 80%;
+    transition: $time;
+
+    &:hover {
+        width: 100%;
+    }
+}
+
+.imgProductos {
+    width: 70px;
+}
+
+.imgHistoria {
+    width: 100%;
+}

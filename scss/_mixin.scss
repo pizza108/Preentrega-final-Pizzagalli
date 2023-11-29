@@ -1,0 +1,5 @@
+@mixin listas($ejeX,$ejeY) {      
+    list-style: none;
+    display: inline-block;
+    margin: $ejeX $ejeY;
+}

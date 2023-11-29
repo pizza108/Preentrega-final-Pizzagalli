@@ -1,0 +1,26 @@
+/*logo*/
+
+.logo {
+    width: 10rem;
+    padding: 0%;
+    margin: 0 1rem;
+    border-radius: 1rem;
+}
+
+nav ul li {
+    @include listas (1rem,1rem);
+    padding: 0.2rem 0.5rem;
+    border-radius: 1rem;
+
+    a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: black;
+        transition: $time;
+
+        &:hover {
+            color: $color-rojo
+        }
+    }
+}
