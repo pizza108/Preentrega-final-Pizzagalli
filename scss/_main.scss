@@ -32,11 +32,19 @@ section {
 }
 
 .imgIndex {
-    width: 80%;
+    width: 28%;
     transition: $time;
 
     &:hover {
-        width: 100%;
+        width: 30%;
+    }
+
+    @media (max-width: 991px) {
+        width: 95%;
+
+        &:hover {
+            width: 100%;
+        }
     }
 }
 

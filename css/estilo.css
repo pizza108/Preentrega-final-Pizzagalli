@@ -75,11 +75,19 @@ section {
 }
 
 .imgIndex {
-  width: 80%;
+  width: 28%;
   transition: all 0.25s;
 }
 .imgIndex:hover {
-  width: 100%;
+  width: 30%;
+}
+@media (max-width: 991px) {
+  .imgIndex {
+    width: 95%;
+  }
+  .imgIndex:hover {
+    width: 100%;
+  }
 }
 
 .imgProductos {
